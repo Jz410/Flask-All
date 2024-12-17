@@ -1,7 +1,7 @@
 # Flask-All
-templates de una web con flask con todo hecho desde login hasta registro y hashar contraseñas
+Plantillas de una web desarrollada con Flask, que incluye la funcionalidad completa desde el inicio de sesión hasta el registro de usuarios, con el hash de contraseñas implementado.
 
-## Carpetas Que Estaran Al Iniciar El Proyecto Son:
+## Carpetas que estarán disponibles al iniciar el proyecto:
 - config:
   -
 - models:
@@ -9,7 +9,7 @@ templates de una web con flask con todo hecho desde login hasta registro y hasha
 - routers:
   -
 - static:
-  - Aqui estaran los archivos multimedia y archivos de Css, Js u otra dependecias y Vas las carpetas usadas como:
+  - Aquí se encontrarán los archivos multimedia, así como los archivos de CSS, JavaScript y otras dependencias. Además, se detallarán las carpetas utilizadas, tales como:
     - Imagenes
     - Sonidos
     - Videos
@@ -17,8 +17,8 @@ templates de una web con flask con todo hecho desde login hasta registro y hasha
     - Css
      
 - templates:
-  - Estan todos los Html y el layout.html donde esta la configuracion de link de estilos estilos.css o codigo app.js solo cambiar filename='TuRuta/Imagen.png'
-      - Esta Linea de codigo se usara para exportar archivos e imagnes u otro tipo de archivo
+  - Se incluyen todos los archivos HTML, así como el archivo layout.html, donde se encuentra la configuración de los enlaces a los estilos <strong> (styles.css) </strong> y el código de <strong>(app.js)</strong>. Solo es necesario modificar filename='TuRuta/Imagen.png' según corresponda.
+      - Esta línea de código se utilizará para exportar archivos, imágenes u otros tipos de archivos
     ```bash
         {{ url_for('static', filename='rutaDeCarpeta/tuArchivo.Tipo')}}
      ```

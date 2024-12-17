@@ -1,0 +1,40 @@
+# Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+.env/
+
+# Archivos de configuración sensible
+instance/
+*.env
+*.json
+
+# Archivos de bases de datos
+*.db
+*.sqlite3
+
+# Archivos de logs
+*.log
+
+# Archivos temporales
+*.bak
+*.swp
+*.swo
+
+# IDEs y editores (para evitar que subas configuraciones locales)
+.vscode/
+.idea/
+*.iml
+
+# Archivos de cobertura de pruebas
+.coverage
+*.cover
+
+# Dependencias de Python y gestión de paquetes
+pip-log.txt
+pip-delete-this-directory.txt
